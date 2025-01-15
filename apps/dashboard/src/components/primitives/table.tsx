@@ -23,7 +23,7 @@ const Table = React.forwardRef<HTMLTableElement, TableProps>(
   ({ className, containerClassname, isLoading, loadingRowsCount = 5, loadingRow, children, ...props }, ref) => (
     <div
       className={cn(
-        'border-neutral-alpha-200 relative w-full overflow-x-auto rounded-md border shadow-sm',
+        'border-neutral-alpha-200 shadow-xs relative w-full overflow-x-auto rounded-lg border',
         containerClassname
       )}
     >

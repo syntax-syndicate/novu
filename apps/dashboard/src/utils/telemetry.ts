@@ -42,4 +42,5 @@ export enum TelemetryEvent {
   TEMPLATE_MODAL_OPENED = 'Template Modal Opened - [Template Store]',
   TEMPLATE_CATEGORY_SELECTED = 'Template Category Selected - [Template Store]',
   CREATE_WORKFLOW_FROM_TEMPLATE = 'Create Workflow From Template - [Template Store]',
+  SUBSCRIBERS_PAGE_VISIT = 'Subscribers page visit',
 }
